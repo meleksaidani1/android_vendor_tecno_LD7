@@ -95,5 +95,8 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/LD7/proprietary/firmware/wifi.cfg:$(TARGET_COPY_OUT_SYSTEM)/firmware/wifi.cfg \
     vendor/tecno/FULL-64/proprietary/vendor/fstab.enableswap:$(TARGET_COPY_OUT_SYSTEM)/fstab.enableswap \
     vendor/tecno/LD7/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
+    vendor/tecno/LD7/proprietary/etc/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/wpa_supplicant.conf \
+    vendor/tecno/LD7/proprietary/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/p2p_supplicant_overlay.conf \
+    vendor/tecno/LD7/proprietary/etc/wifi/wpa_supplicant_overlay.conf$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/tecno/LD7/proprietary/lib/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libshowlogo.so \
     vendor/tecno/LD7/proprietary/etc/init/android.hardware.keymaster@4.0-service.beanpod.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/android.hardware.keymaster@4.0-service.beanpod.rc
