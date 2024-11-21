@@ -20,6 +20,44 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/tecno/LD7/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
     vendor/tecno/LD7/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
+        vendor/tecno/LD7/proprietary/data/camera/model/M_Segment_DoubleLoss_V1.model:$(TARGET_COPY_OUT_SYSTEM)/data/camera/model/M_Segment_DoubleLoss_V1.model \
+    vendor/tecno/LD7/proprietary/data/camera/model/eyes_detect_model:$(TARGET_COPY_OUT_SYSTEM)/data/camera/model/eyes_detect_model \
+    vendor/tecno/LD7/proprietary/data/camera/model/facerecheck.bin:$(TARGET_COPY_OUT_SYSTEM)/data/camera/model/facerecheck.bin \
+    vendor/tecno/LD7/proprietary/data/camera/model/facerecheck.param:$(TARGET_COPY_OUT_SYSTEM)/data/camera/model/facerecheck.param \
+    vendor/tecno/LD7/proprietary/data/camera/model/lightforgender_addindian_tf113_test5.tflite:$(TARGET_COPY_OUT_SYSTEM)/data/camera/model/lightforgender_addindian_tf113_test5.tflite \
+    vendor/tecno/LD7/proprietary/data/camera/model/lightforgenderandage_tf113_test4.tflite:$(TARGET_COPY_OUT_SYSTEM)/data/camera/model/lightforgenderandage_tf113_test4.tflite \
+    vendor/tecno/LD7/proprietary/data/camera/model/scene.tflite:$(TARGET_COPY_OUT_SYSTEM)/data/camera/model/scene.tflite \
+    vendor/tecno/LD7/proprietary/data/camera/model/segment.tflite:$(TARGET_COPY_OUT_SYSTEM)/data/camera/model/segment.tflite \
+    vendor/tecno/LD7/proprietary/data/camera/model/segmentPre.tflite:$(TARGET_COPY_OUT_SYSTEM)/data/camera/model/segmentPre.tflite \
+    vendor/tecno/LD7/proprietary/data/camera/watermark/watermark_1184x1184.nv21:$(TARGET_COPY_OUT_SYSTEM)/data/camera/watermark/watermark_1184x1184.nv21 \
+    vendor/tecno/LD7/proprietary/data/camera/watermark/watermark_1184x1184.yuyv:$(TARGET_COPY_OUT_SYSTEM)/data/camera/watermark/watermark_1184x1184.yuyv \
+    vendor/tecno/LD7/proprietary/data/camera/watermark/watermark_1280x720.nv21:$(TARGET_COPY_OUT_SYSTEM)/data/camera/watermark/watermark_1280x720.nv21 \
+    vendor/tecno/LD7/proprietary/data/camera/watermark/watermark_1280x720.yuyv:$(TARGET_COPY_OUT_SYSTEM)/data/camera/watermark/watermark_1280x720.yuyv \
+    vendor/tecno/LD7/proprietary/data/camera/watermark/watermark_1312x576.nv21:$(TARGET_COPY_OUT_SYSTEM)/data/camera/watermark/watermark_1312x576.nv21 \
+    vendor/tecno/LD7/proprietary/data/camera/watermark/watermark_1312x576.yuyv:$(TARGET_COPY_OUT_SYSTEM)/data/camera/watermark/watermark_1312x576.yuyv \
+    vendor/tecno/LD7/proprietary/data/camera/watermark/watermark_1600x1200.nv21:$(TARGET_COPY_OUT_SYSTEM)/data/camera/watermark/watermark_1600x1200.nv21 \
+    vendor/tecno/LD7/proprietary/data/camera/watermark/watermark_1600x1200.yuyv:$(TARGET_COPY_OUT_SYSTEM)/data/camera/watermark/watermark_1600x1200.yuyv \
+    vendor/tecno/LD7/proprietary/data/camera/watermark/watermark_1920x1080.nv21:$(TARGET_COPY_OUT_SYSTEM)/data/camera/watermark/watermark_1920x1080.nv21 \
+    vendor/tecno/LD7/proprietary/data/camera/watermark/watermark_1920x1080.yuyv:$(TARGET_COPY_OUT_SYSTEM)/data/camera/watermark/watermark_1920x1080.yuyv \
+    vendor/tecno/LD7/proprietary/data/camera/watermark/watermark_2432x2432.nv21:$(TARGET_COPY_OUT_SYSTEM)/data/camera/watermark/watermark_2432x2432.nv21 \
+    vendor/tecno/LD7/proprietary/data/camera/watermark/watermark_2432x2432.yuyv:$(TARGET_COPY_OUT_SYSTEM)/data/camera/watermark/watermark_2432x2432.yuyv \
+    vendor/tecno/LD7/proprietary/data/camera/watermark/watermark_2560x1440.nv21:$(TARGET_COPY_OUT_SYSTEM)/data/camera/watermark/watermark_2560x1440.nv21 \
+    vendor/tecno/LD7/proprietary/data/camera/watermark/watermark_2560x1440.yuyv:$(TARGET_COPY_OUT_SYSTEM)/data/camera/watermark/watermark_2560x1440.yuyv \
+    vendor/tecno/LD7/proprietary/data/camera/watermark/watermark_2624x1152.nv21:$(TARGET_COPY_OUT_SYSTEM)/data/camera/watermark/watermark_2624x1152.nv21 \
+    vendor/tecno/LD7/proprietary/data/camera/watermark/watermark_2624x1152.yuyv:$(TARGET_COPY_OUT_SYSTEM)/data/camera/watermark/watermark_2624x1152.yuyv \
+    vendor/tecno/LD7/proprietary/data/camera/watermark/watermark_3264x2448.nv21:$(TARGET_COPY_OUT_SYSTEM)/data/camera/watermark/watermark_3264x2448.nv21 \
+    vendor/tecno/LD7/proprietary/data/camera/watermark/watermark_3264x2448.yuyv:$(TARGET_COPY_OUT_SYSTEM)/data/camera/watermark/watermark_3264x2448.yuyv \
+    vendor/tecno/LD7/proprietary/data/camera/watermark/watermark_3456x3456.nv21:$(TARGET_COPY_OUT_SYSTEM)/data/camera/watermark/watermark_3456x3456.nv21 \
+    vendor/tecno/LD7/proprietary/data/camera/watermark/watermark_3456x3456.yuyv:$(TARGET_COPY_OUT_SYSTEM)/data/camera/watermark/watermark_3456x3456.yuyv \
+    vendor/tecno/LD7/proprietary/data/camera/watermark/watermark_3840x2160.nv21:$(TARGET_COPY_OUT_SYSTEM)/data/camera/watermark/watermark_3840x2160.nv21 \
+    vendor/tecno/LD7/proprietary/data/camera/watermark/watermark_3840x2160.yuyv:$(TARGET_COPY_OUT_SYSTEM)/data/camera/watermark/watermark_3840x2160.yuyv \
+    vendor/tecno/LD7/proprietary/data/camera/watermark/watermark_4592x2016.nv21:$(TARGET_COPY_OUT_SYSTEM)/data/camera/watermark/watermark_4592x2016.nv21 \
+    vendor/tecno/LD7/proprietary/data/camera/watermark/watermark_4592x2016.yuyv:$(TARGET_COPY_OUT_SYSTEM)/data/camera/watermark/watermark_4592x2016.yuyv \
+    vendor/tecno/LD7/proprietary/data/camera/watermark/watermark_4608x3456.nv21:$(TARGET_COPY_OUT_SYSTEM)/data/camera/watermark/watermark_4608x3456.nv21 \
+    vendor/tecno/LD7/proprietary/data/camera/watermark/watermark_4608x3456.yuyv:$(TARGET_COPY_OUT_SYSTEM)/data/camera/watermark/watermark_4608x3456.yuyv \
+    vendor/tecno/LD7/proprietary/data/camera/watermark/watermark_640x480.nv21:$(TARGET_COPY_OUT_SYSTEM)/data/camera/watermark/watermark_640x480.nv21 \
+    vendor/tecno/LD7/proprietary/data/camera/watermark/watermark_640x480.yuyv:$(TARGET_COPY_OUT_SYSTEM)/data/camera/watermark/watermark_640x480.yuyv \
+    vendor/tecno/LD7/proprietary/data/camera/watermark/watermark_config:$(TARGET_COPY_OUT_SYSTEM)/data/camera/watermark/watermark_config \
     vendor/tecno/LD7/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
     vendor/tecno/LD7/proprietary/firmware/BT_FW.cfg:$(TARGET_COPY_OUT_SYSTEM)/firmware/BT_FW.cfg \
     vendor/tecno/LD7/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
