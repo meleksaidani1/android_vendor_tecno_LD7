@@ -60,6 +60,40 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/LD7/proprietary/data/camera/watermark/watermark_config:$(TARGET_COPY_OUT_SYSTEM)/data/camera/watermark/watermark_config \
     vendor/tecno/LD7/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
     vendor/tecno/LD7/proprietary/firmware/BT_FW.cfg:$(TARGET_COPY_OUT_SYSTEM)/firmware/BT_FW.cfg \
+    vendor/tecno/LD7/proprietary/firmware/BT_FW.cfg:$(TARGET_COPY_OUT_SYSTEM)/firmware/BT_FW.cfg \
+    vendor/tecno/LD7/proprietary/firmware/Conf_MultipleTest.ini:$(TARGET_COPY_OUT_SYSTEM)/firmware/Conf_MultipleTest.ini \
+    vendor/tecno/LD7/proprietary/firmware/WIFI_RAM_CODE_soc1_0_1a_1.bin:$(TARGET_COPY_OUT_SYSTEM)/firmware/WIFI_RAM_CODE_soc1_0_1a_1.bin \
+    vendor/tecno/LD7/proprietary/firmware/WMT_SOC.cfg:$(TARGET_COPY_OUT_SYSTEM)/firmware/WMT_SOC.cfg \
+    vendor/tecno/LD7/proprietary/firmware/fm_cust.cfg:$(TARGET_COPY_OUT_SYSTEM)/firmware/fm_cust.cfg \
+    vendor/tecno/LD7/proprietary/firmware/focaltech_ts_fw.bin:$(TARGET_COPY_OUT_SYSTEM)/firmware/focaltech_ts_fw.bin \
+    vendor/tecno/LD7/proprietary/firmware/gt1151_default_firmware1.img:$(TARGET_COPY_OUT_SYSTEM)/firmware/gt1151_default_firmware1.img \
+    vendor/tecno/LD7/proprietary/firmware/gt1151_default_firmware2.img:$(TARGET_COPY_OUT_SYSTEM)/firmware/gt1151_default_firmware2.img \
+    vendor/tecno/LD7/proprietary/firmware/gt1151_default_firmware3.img:$(TARGET_COPY_OUT_SYSTEM)/firmware/gt1151_default_firmware3.img \
+    vendor/tecno/LD7/proprietary/firmware/gt1151_default_firmware4.img:$(TARGET_COPY_OUT_SYSTEM)/firmware/gt1151_default_firmware4.img \
+    vendor/tecno/LD7/proprietary/firmware/gt1151_hotknot_auth_firmware1.img:$(TARGET_COPY_OUT_SYSTEM)/firmware/gt1151_hotknot_auth_firmware1.img \
+    vendor/tecno/LD7/proprietary/firmware/gt1151_hotknot_auth_firmware2.img:$(TARGET_COPY_OUT_SYSTEM)/firmware/gt1151_hotknot_auth_firmware2.img \
+    vendor/tecno/LD7/proprietary/firmware/gt1151_hotknot_auth_firmware3.img:$(TARGET_COPY_OUT_SYSTEM)/firmware/gt1151_hotknot_auth_firmware3.img \
+    vendor/tecno/LD7/proprietary/firmware/gt1151_hotknot_auth_firmware4.img:$(TARGET_COPY_OUT_SYSTEM)/firmware/gt1151_hotknot_auth_firmware4.img \
+    vendor/tecno/LD7/proprietary/firmware/gt1151_patch_jump_firmware1.img:$(TARGET_COPY_OUT_SYSTEM)/firmware/gt1151_patch_jump_firmware1.img \
+    vendor/tecno/LD7/proprietary/firmware/gt1151_patch_jump_firmware2.img:$(TARGET_COPY_OUT_SYSTEM)/firmware/gt1151_patch_jump_firmware2.img \
+    vendor/tecno/LD7/proprietary/firmware/gt1151_patch_jump_firmware3.img:$(TARGET_COPY_OUT_SYSTEM)/firmware/gt1151_patch_jump_firmware3.img \
+    vendor/tecno/LD7/proprietary/firmware/gt1151_patch_jump_firmware4.img:$(TARGET_COPY_OUT_SYSTEM)/firmware/gt1151_patch_jump_firmware4.img \
+    vendor/tecno/LD7/proprietary/firmware/gt9886_cfg_6785v96.bin:$(TARGET_COPY_OUT_SYSTEM)/firmware/gt9886_cfg_6785v96.bin \
+    vendor/tecno/LD7/proprietary/firmware/gt9886_cfg_6785v99.bin:$(TARGET_COPY_OUT_SYSTEM)/firmware/gt9886_cfg_6785v99.bin \
+    vendor/tecno/LD7/proprietary/firmware/gt9886_cfg_6885v1.bin:$(TARGET_COPY_OUT_SYSTEM)/firmware/gt9886_cfg_6885v1.bin \
+    vendor/tecno/LD7/proprietary/firmware/gt9886_firmware_6785a4.bin:$(TARGET_COPY_OUT_SYSTEM)/firmware/gt9886_firmware_6785a4.bin \
+    vendor/tecno/LD7/proprietary/firmware/gt9886_firmware_6785ae.bin:$(TARGET_COPY_OUT_SYSTEM)/firmware/gt9886_firmware_6785ae.bin \
+    vendor/tecno/LD7/proprietary/firmware/gt9886_firmware_6885a1.bin:$(TARGET_COPY_OUT_SYSTEM)/firmware/gt9886_firmware_6885a1.bin \
+    vendor/tecno/LD7/proprietary/firmware/mt6631_fm_v1_coeff.bin:$(TARGET_COPY_OUT_SYSTEM)/firmware/mt6631_fm_v1_coeff.bin \
+    vendor/tecno/LD7/proprietary/firmware/mt6631_fm_v1_patch.bin:$(TARGET_COPY_OUT_SYSTEM)/firmware/mt6631_fm_v1_patch.bin \
+    vendor/tecno/LD7/proprietary/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_SYSTEM)/firmware/novatek_ts_fw.bin \
+    vendor/tecno/LD7/proprietary/firmware/novatek_ts_mp.bin:$(TARGET_COPY_OUT_SYSTEM)/firmware/novatek_ts_mp.bin \
+    vendor/tecno/LD7/proprietary/firmware/soc1_0_patch_mcu_1a_1_hdr.bin:$(TARGET_COPY_OUT_SYSTEM)/firmware/soc1_0_patch_mcu_1a_1_hdr.bin \
+    vendor/tecno/LD7/proprietary/firmware/soc1_0_ram_bt_1a_1_hdr.bin:$(TARGET_COPY_OUT_SYSTEM)/firmware/soc1_0_ram_bt_1a_1_hdr.bin \
+    vendor/tecno/LD7/proprietary/firmware/soc1_0_ram_mcu_1a_1_hdr.bin:$(TARGET_COPY_OUT_SYSTEM)/firmware/soc1_0_ram_mcu_1a_1_hdr.bin \
+    vendor/tecno/LD7/proprietary/firmware/soc1_0_ram_wifi_1a_1_hdr.bin:$(TARGET_COPY_OUT_SYSTEM)/firmware/soc1_0_ram_wifi_1a_1_hdr.bin \
+    vendor/tecno/LD7/proprietary/firmware/wifi.cfg:$(TARGET_COPY_OUT_SYSTEM)/firmware/wifi.cfg \
+    vendor/tecno/FULL-64/proprietary/vendor/fstab.enableswap:$(TARGET_COPY_OUT_SYSTEM)/fstab.enableswap \
     vendor/tecno/LD7/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
     vendor/tecno/LD7/proprietary/lib/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libshowlogo.so \
     vendor/tecno/LD7/proprietary/etc/init/android.hardware.keymaster@4.0-service.beanpod.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/android.hardware.keymaster@4.0-service.beanpod.rc
